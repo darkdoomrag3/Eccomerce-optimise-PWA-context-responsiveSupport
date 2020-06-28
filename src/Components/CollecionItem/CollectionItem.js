@@ -16,6 +16,7 @@ import {
 const CollectionItem = ({ item }) => {
     const { name, price, imageUrl } = item
     const { addItem } = useContext(CartContext);
+
     return (
         <CollectionItemContainer>
             <BackgroundImage
